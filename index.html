@@ -1,24 +1,131 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>WEB1 - html</title>
-  <meta charset="utf=8">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yellatube Mobile</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"/>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css"/>
+  <script src="main.js" defer></script>
 </head>
-
 <body>
-  <h1><a href="index.html" >WEB</a></h1>
-  <div id="grid">
-    <ol>
-      <li><a href="1.html" class="saw">HTML</a></li>
-      <li><a href="2.html" class="saw" id="active">CSS</a></li>
-      <li><a href="3.html">JavaScript</a></li>
-    </ol>
-    <div id="article">
-      <h2>WEB</h2>
-      <p>The World Wide web (abbreviated WWW or the Web) is an information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and can be accessed via the Internet.[1] English scientist Tim Berners-Lee invented the World Wide Web in 1989. He wrote the first web browser computer program in 1990 while employed at CERN in Switzerland.[2][3] The Web browser was released outside of CERN in 1991, first to other research institutions starting in January 1991 and to the general public on the Internet in August 1991.
-      </p>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <i class="fab fa-youtube"></i>
+      <span class="title">Yellatube</span>
     </div>
+    <div class="icons">
+      <i class="fas fa-search"></i>
+      <i class="fas fa-ellipsis-v"></i>
+    </div>
+  </header>
+
+  <!-- Video Player -->
+  <section class="player">
+    <video controls src="video/doggo.mp4"></video>
+  </section>
+  <div class="infoAndUpNext">
+    <!-- Video Info -->
+    <section class="info">
+      <!-- Metadata -->
+      <div class="metadata">
+        <ul class="hashtags">
+          <li>#dog</li>
+          <li>#puppy</li>
+          <li>#doggo</li>
+        </ul>
+        <div class="titleAndButton">
+          <span class="title clamp">
+            Sleepy Doggo woke up but still wants to dream about yummy yummy sweet dried paprica snack / if you clicked this video, you are same with my doggo now, and his name is potato-storm.
+          </span>
+          <button class="moreBtn">
+            <i class="fas fa-caret-down"></i>
+          </button>
+        </div>
+          <span class="views">1M views 1 Month ago</span>
+      </div>
+      <!-- Action -->
+      <ul class="actions">
+        <li>
+          <button><i class="fas fa-thumbs-up"></i><span>8K</span></button>
+        </li>
+        <li>
+          <button><i class="fas fa-thumbs-down"></i><span>4</span></button>
+        </li>
+        <li>
+          <button><i class="fas fa-share"></i><span>Share</span></button>
+        </li>
+        <li>
+          <button><i class="fas fa-plus"></i><span>Save</span></button>
+        </li>
+        <li>
+          <button><i class="fas fa-flag"></i><span>Report</span></button>
+        </li>
+      </ul>
+      <!-- Channel Description -->
+      <div class="channel">
+        <div class="metadata">
+          <img src="image/avatar.png" alt=""/>
+          <div class="info">
+            <span class="name">Philiphinochio</span>
+            <span class="subscribers">9 subscribers</span>
+          </div>
+        </div>
+        <button class="subscribe">subscribe</button>
+      </div>
+    </section>
+
+    <!-- Up Next -->
+    <section class="upNext">
+      <span class="title">Up Next</span>
+      <ul>
+        <li class="item">
+          <div class="img">
+            <img src="image/1.jpg" alt=""/>
+          </div>
+          <div class="info">
+            <span class="title">
+              SPOODERMAN #2 - Far from homo
+            </span>
+            <span class="name">Tom Holyland</span>
+            <span class="views">9M views</span>
+          </div>
+          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+        <li class="item">
+          <div class="img">
+          <img src="image/2.jpg" alt=""/>
+          </div>
+          <div class="info">
+            <span class="title">
+              Hello How are you I'm under the water here're too much rainy wooooo
+            </span>
+            <span class="name">The secret of India</span>
+            <span class="views">72M views</span>
+          </div>
+          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+        <li class="item">
+          <div class="img">
+            <img src="image/3.jpg" alt=""/>
+          </div>
+          <div class="info">
+            <div class="title">
+            YANKEY WITH NO BRIM!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            </div>
+            <span class="name">New York Yankies Official</span>
+            <span class="views">2K views</span>
+          </span>
+        </div>
+        <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+      </ul>
+    </section>
   </div>
 </body>
 </html>
