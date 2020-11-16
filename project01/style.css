@@ -6,7 +6,7 @@
 
 /* 레이아웃 */
 #wrap {}
-#header {height: 325px; background: url(/img/header_bg.jpg) center top repeat-x;}
+#header {height: 325px; background: url(./img/header_bg.jpg) center top repeat-x;}
 #contents {}
 #footer {border-top: 1px solid #eee;}
 
@@ -27,7 +27,7 @@
 .header .header-tit a {display: inline-block; background: #2698cb; color: #fff; font-size: 18px; padding: 5px 20px 6px 20px; margin-top: -5px;}
 
 .header .header-icon {text-align: center; margin-top: 30px;}
-.header .header-icon a {width: 60px; height: 60px; display: inline-block; background: url(/img/icon.png); margin: 0 3px;}
+.header .header-icon a {width: 60px; height: 60px; display: inline-block; background: url(./img/icon.png); margin: 0 3px;}
 .header .header-icon .icon1 {background-position: 0 0;}
 .header .header-icon .icon1:hover {background-position: -60px 0;}
 .header .header-icon .icon2 {background-position: 0 -60px;}
@@ -51,13 +51,13 @@
 /* 컨텐츠 영역 타이틀 */
 .tit {position: relative;}
 .tit h2 {font-family: 'Nanum Brush Script', cursive; font-size: 40px; text-align: center; padding: 5px 0; letter-spacing: 2px; color: #2c94c4;}
-.tit .btn {position: absolute; top: 5px; right: 0; width: 60px; height: 60px; background: url(/img/icon.png) no-repeat 0 -600px;}
+.tit .btn {position: absolute; top: 5px; right: 0; width: 60px; height: 60px; background: url(./img/icon.png) no-repeat 0 -600px;}
 
 /* 배너 */
 .ban {position: relative; padding: 24px 0 20px;}
-.ban a.prev {position: absolute; left: -80px; top: 60px; width: 43px; height: 43px; background:#ccc; background: url(/img/icon.png) no-repeat -150px 0;}
+.ban a.prev {position: absolute; left: -80px; top: 60px; width: 43px; height: 43px; background:#ccc; background: url(./img/icon.png) no-repeat -150px 0;}
 .ban a.prev:hover {background-position: -193px 0;}
-.ban a.next {position: absolute; right: -80px; top: 60px; width: 43px; height: 43px; background:#ccc; background: url(/img/icon.png) no-repeat -150px -43px;}
+.ban a.next {position: absolute; right: -80px; top: 60px; width: 43px; height: 43px; background:#ccc; background: url(./img/icon.png) no-repeat -150px -43px;}
 .ban a.next:hover {background-position: -193px -43px;}
 .ban ul {overflow: hidden;}
 .ban ul li {float: left; width: 330px;}
@@ -79,7 +79,7 @@
 .cont .col5 {border-right: 1px solid #c8c8c8}
 .cont .col6 {margin-right: 0; padding-right: 0;}
 
-.cont .column .ico-img {display: block; position: absolute; width: 60px; height: 60px; left: 0; right: 0; background: url(/img/icon.png) no-repeat;}
+.cont .column .ico-img {display: block; position: absolute; width: 60px; height: 60px; left: 0; right: 0; background: url(./img/icon.png) no-repeat;}
 .cont .column .ico-tit {padding-left: 70px; font-size: 16px; color: #2c94c4;}
 .cont .column .ico-desc {padding-left: 70px; border-bottom: 1px solid #d0d0d0; padding-bottom: 15px; margin-bottom: 15px;}
 
@@ -99,18 +99,18 @@
 /* 게시판 */
 .notice {position: relative;}
 .notice h4 {font-size: 14px; color: #0093be; padding-bottom: 3px; font-weight: bold;}
-.notice ul li {overflow: hidden; text-overflow: ellipsis; white-space: nowrap; background: url(/img/dot.gif) no-repeat 0 8px; padding-left: 8px;}
+.notice ul li {overflow: hidden; text-overflow: ellipsis; white-space: nowrap; background: url(./img/dot.gif) no-repeat 0 8px; padding-left: 8px;}
 .notice ul li a {font-size: 12px;}
-.notice a.more {position: absolute; right: 0; top: 0; display: block; background: url(/img/icon.png) -150px -90px no-repeat; width: 17px; height: 17px;}
+.notice a.more {position: absolute; right: 0; top: 0; display: block; background: url(./img/icon.png) -150px -90px no-repeat; width: 17px; height: 17px;}
 .notice a.more:hover {background-position: -167px -90px;}
 
 /* 게시판2 */
 .notice2 {position: relative; margin-top: 15px;}
 .notice2 h4 {font-size: 14px; color: #0093be; padding-bottom: 3px; font-weight: bold;}
 .notice2 ul li {overflow: hidden;}
-.notice2 ul li a {float: left; width: 65%; font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; background: url(/img/dot.gif) no-repeat 0 8px; padding-left: 8px;}
+.notice2 ul li a {float: left; width: 65%; font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; background: url(./img/dot.gif) no-repeat 0 8px; padding-left: 8px;}
 .notice2 ul li span {float: right; width: 30%; text-align: right; font-size: 12px;}
-.notice2 a.more {position: absolute; right: 0; top: 0; display: block; background: url(/img/icon.png) -150px -90px no-repeat; width: 17px; height: 17px;}
+.notice2 a.more {position: absolute; right: 0; top: 0; display: block; background: url(./img/icon.png) -150px -90px no-repeat; width: 17px; height: 17px;}
 .notice2 a.more:hover {background-position: -167px -90px;}
 
 /* 게시판3 */
@@ -120,7 +120,7 @@
 .notice3 ul li a img {width: 50px; position: absolute; top: 0; left: 0; border: 1px solid #0093bd;}
 .notice3 ul li a strong {display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
 .notice3 ul li a span {display: block;overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px;}
-.notice3 a.more {position: absolute; right: 0; top: 0; display: block; background: url(/img/icon.png) -150px -90px no-repeat; width: 17px; height: 17px;}
+.notice3 a.more {position: absolute; right: 0; top: 0; display: block; background: url(./img/icon.png) -150px -90px no-repeat; width: 17px; height: 17px;}
 .notice3 a.more:hover {background-position: -167px -90px;}
 
 /* 마우스 호버 게시판1 */
@@ -150,7 +150,7 @@
 .tab-menu ul li {float: left; border: 1px solid #ccc; margin-right: -1px; margin-bottom: -1px;}
 .tab-menu ul li a {padding: 5px 10px; display: block;}
 .tab-menu ul li ul {position: absolute; left: 0; top: 48px; width: 270px; border: 0;}
-.tab-menu ul li ul li {float: none; border: 0; background: url(/img/dot.gif) no-repeat 9px 8px; padding-left: 18px;}
+.tab-menu ul li ul li {float: none; border: 0; background: url(./img/dot.gif) no-repeat 9px 8px; padding-left: 18px;}
 .tab-menu ul li ul li a {overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 100%; padding: 0 0 3px 0;}
 .tab-menu ul li .active {background: #2c94c4;}
 .tab-menu ul li .active a{color: #fff;}
@@ -161,7 +161,7 @@
 .notice4 h4 {border-bottom: 1px solid #ccc; color: #0093bd; padding: 8px 10px; font-size: 14px; font-weight: 700;}
 .notice4 h4 span {color: #cf3292;}
 .notice4 ul {padding: 10px;}
-.notice4 ul li {overflow: hidden; background: url(/img/dot.gif) no-repeat 0 8px; padding-left: 8px; padding-bottom: 2px;}
+.notice4 ul li {overflow: hidden; background: url(./img/dot.gif) no-repeat 0 8px; padding-left: 8px; padding-bottom: 2px;}
 .notice4 ul li a {float: left; width: 60%; overflow: hidden;text-overflow: ellipsis; white-space: nowrap;}
 .notice4 ul li span {float: right; width: 30%; text-align: right;}
 .notice4 .more {position: absolute; right: 9px; top: 9px;}
@@ -172,7 +172,7 @@
 .gallery .gallery-btn{position: absolute; right: 5px; top: 7px;}
 .gallery .gallery-btn ul {overflow: hidden;}
 .gallery .gallery-btn ul li {float: left; margin: 1px 2px;}
-.gallery .gallery-btn ul li a {display: block; width: 23px; height: 23px; background: url(/img/icon.png) no-repeat;}
+.gallery .gallery-btn ul li a {display: block; width: 23px; height: 23px; background: url(./img/icon.png) no-repeat;}
 .gallery .gallery-btn ul li.gb-icon1 a {background-position: -150px -120px;}
 .gallery .gallery-btn ul li.gb-icon1 a:hover {background-position: -173px -120px;}
 .gallery .gallery-btn ul li.gb-icon2 a {background-position: -150px -143px;}
