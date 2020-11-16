@@ -212,4 +212,4 @@
 .footer ul li {position: relative; display: inline; padding: 0 7px 0 10px;}
 .footer ul li:before {content: ''; width: 1px; height: 12px; background: #cccccc; position: absolute; left: 0; top: 2px;}
 .footer ul li:first-child:before {width: 0; height: 0;}
-.footer .w3c {margin-bottom: 15px;}
+.footer .w3c {margin-top: 15px;}
